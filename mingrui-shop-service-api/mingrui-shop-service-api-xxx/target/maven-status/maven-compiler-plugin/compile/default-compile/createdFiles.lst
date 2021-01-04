@@ -1,0 +1,7 @@
+com\baidu\shop\entity\BrandEntity.class
+com\baidu\shop\entity\CategoryBrandEntity.class
+com\baidu\shop\config\MrSwagger2Config.class
+com\baidu\shop\service\BrandService.class
+com\baidu\shop\service\CategoryService.class
+com\baidu\shop\entity\CategoryEntity.class
+com\baidu\shop\dto\BrandDTO.class

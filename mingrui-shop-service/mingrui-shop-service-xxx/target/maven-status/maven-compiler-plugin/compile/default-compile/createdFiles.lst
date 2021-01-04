@@ -1,0 +1,6 @@
+com\baidu\shop\mapper\CategoryBrandMapper.class
+com\baidu\shop\service\impl\CategoryServiceImpl.class
+com\baidu\shop\service\impl\BrandServiceImpl.class
+com\baidu\shop\mapper\BrandMapper.class
+com\baidu\shop\mapper\CategoryMapper.class
+com\baidu\RunXXXApplication.class

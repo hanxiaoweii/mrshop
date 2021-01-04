@@ -1,0 +1,3 @@
+com\baidu\shop\upload\controller\UploadController.class
+com\baidu\global\GlobalCorsConfig.class
+com\baidu\RunUploadServerApplication.class

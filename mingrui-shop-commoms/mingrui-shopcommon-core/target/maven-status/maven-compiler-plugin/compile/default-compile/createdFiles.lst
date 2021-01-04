@@ -1,0 +1,16 @@
+com\baidu\shop\utils\JSONUtil$JSON_TYPE.class
+com\baidu\shop\utils\ObjectUtils.class
+com\baidu\shop\validate\group\MingruiOperation$Add.class
+com\baidu\shop\validate\group\MingruiOperation$Search.class
+com\baidu\shop\validate\group\MingruiOperation$Update.class
+com\baidu\shop\status\HTTPStatus.class
+com\baidu\shop\base\BaseDTO.class
+com\baidu\shop\base\Result.class
+com\baidu\shop\base\BaseApiService.class
+com\baidu\shop\global\GlobalException.class
+com\baidu\shop\validate\group\MingruiOperation.class
+com\baidu\shop\utils\BaiduBeanUtil.class
+com\baidu\shop\utils\JSONUtil$1.class
+com\baidu\shop\utils\JSONUtil.class
+com\baidu\shop\utils\PinYinUtil.class
+com\baidu\shop\utils\JSONUtil$2.class
