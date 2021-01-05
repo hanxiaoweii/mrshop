@@ -6,6 +6,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 @ApiModel(value = "规格参数数据传输DTO")
@@ -23,9 +24,10 @@ public class SpecParamDTO extends BaseDTO {
     private Integer groupId;
 
     @ApiModelProperty(value = "规格参数名称")
+    @NotEmpty(message = "规格参数名称不能为空",groups = {MingruiOperation.Add.class,MingruiOperation.Update.class})
     private String name;
 
-    @ApiModelProperty(value = "是否是数字类型参数，t rue或false" , example = "0")
+    @ApiModelProperty(value = "是否是数字类型参数，true或false" , example = "0")
     @NotNull(message = "是否是数字类型参数不能为空",groups = {MingruiOperation.Update.class,MingruiOperation.Add.class})
     private Boolean numeric;
 
