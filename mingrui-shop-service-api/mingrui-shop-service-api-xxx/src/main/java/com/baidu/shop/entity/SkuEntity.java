@@ -8,29 +8,27 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
-@Table(name = "tb_spu")
 @Data
-public class SpuEntity {
+@Table(name = "tb_sku")
+public class SkuEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
+
+    private Integer spuId;
 
     private String title;
 
-    private String subTitle;
+    private String images;
 
-    private Integer cid1;
+    private Integer price;
 
-    private Integer cid2;
+    private String indexes;
 
-    private Integer cid3;
+    private String ownSpec;
 
-    private Integer brandId;
-
-    private Integer saleable;
-
-    private Integer valid;
+    private Integer enable;
 
     private Date createTime;
 
